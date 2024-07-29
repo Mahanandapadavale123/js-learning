@@ -1,0 +1,4 @@
+var n1 = 100;
+var n2= 200;
+console.log("===========Before Swap=============");
+console.log("n1:",n1 , "n2:",n2);

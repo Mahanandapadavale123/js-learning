@@ -1,5 +1,5 @@
 
-// // Question 1
+// Question 1
 
 function squareOfWordLength(str){
 console.log(str);
@@ -38,24 +38,3 @@ var result= function(word){
     console.log(`Given word ${word} is with ${result} length`);
 }
 result("JavaScript");
-
-var mul=function(num){
- var res= num%3==0 ? "Yes":"No"
- console.log(`Given number ${num} is Multiple of 3 ${res}`);
-}
-mul(9);
-
-
-
-let num="100";
- var result=Number(num);
- console.log(`num is ${num}, typeof ${ typeof num} ,type of result: ${typeof result}`);
- 
- let num1="100";
- var result=Boolean(num);
- console.log(`num is ${num}, typeof ${ typeof num} ,type of result: ${typeof result}`);
-
- let num2="100";
- var result=Number(num);
- console.log(`num is ${num}, typeof ${ typeof num} ,type of result: ${typeof result}`);
-

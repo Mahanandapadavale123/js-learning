@@ -34,6 +34,5 @@ console.log(arrayNumbers);
 
  console.log("============Remove 1============");
  var arrayNumbers = [2, 4, 1, 7, 9, 8];
-  var num=arrayNumbers.splice(2,3);
+  var num=arrayNumbers.splice(2);
   console.log(num);
-  console.log(arrayNumbers.indexOf(4));

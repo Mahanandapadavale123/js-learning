@@ -1,0 +1,17 @@
+
+
+function greaterNumber(n1,n2){
+    var res=10>-10? "Greater":"less"
+    console.log(`greater number${res}`);
+}
+greaterNumber(10,-10);
+greaterNumber(800,899);
+
+function isEvenOdd(num){
+    var res=num%2==0?"True":"False";
+    console.log(`The given number is: ${res}`);
+}
+isEvenOdd(29);
+isEvenOdd(44);
+isEvenOdd(0);
+isEvenOdd(101);
